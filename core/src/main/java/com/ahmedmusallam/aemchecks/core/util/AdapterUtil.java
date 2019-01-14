@@ -16,8 +16,14 @@ public class AdapterUtil {
         .orElse(null);
   }
 
+
+
   public static Session toSession(ResourceResolver resourceResolver) {
     return adaptTo(resourceResolver, Session.class);
+  }
+
+  public static <T> Function<ResourceResolver, T> to(Class<T> type) {
+    return resourceResolver -> resourceResolver.adaptTo(type);
   }
 
 }
