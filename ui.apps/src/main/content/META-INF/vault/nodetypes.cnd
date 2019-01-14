@@ -14,6 +14,10 @@
   - * (undefined)
   + * (nt:base) = sling:Folder version
 
+[rep:Password]
+  - * (undefined) protected
+  - * (undefined) protected multiple
+
 [rep:RepoAccessControllable]
   mixin
   + rep:repoPolicy (rep:Policy) protected ignore

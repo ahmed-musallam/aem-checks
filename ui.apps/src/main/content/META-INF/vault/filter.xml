@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/apps/aem-checks"/>
-
-
-
     <filter root="/etc/clientlibs/aem-checks"/>
-
-
+    <filter root="/home/users/system/aem-checks"/>
+    <filter root="/rep:policy"/>
 </workspaceFilter>

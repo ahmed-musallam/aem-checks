@@ -15,15 +15,20 @@
             mode="replace"
             root="/apps/aem-checks"
             rules="[]"/>
-
-
-
-        <f3
+        <f1
             jcr:primaryType="nt:unstructured"
             mode="replace"
             root="/etc/clientlibs/aem-checks"
             rules="[]"/>
-
-
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/home/users/system/aem-checks"
+            rules="[]"/>
+        <f3
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/rep:policy"
+            rules="[]"/>
     </filter>
 </jcr:root>
