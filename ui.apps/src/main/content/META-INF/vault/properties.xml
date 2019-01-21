@@ -4,6 +4,7 @@
 <comment>FileVault Package Properties</comment>
 <entry key="createdBy">admin</entry>
 <entry key="name">aem-checks</entry>
+<entry key="acHandling">merge</entry>
 <entry key="buildCount">1</entry>
 <entry key="version">1.0.0-SNAPSHOT</entry>
 <entry key="dependencies" />
