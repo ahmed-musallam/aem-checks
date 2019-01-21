@@ -98,7 +98,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <instructions>
-                        <Bundle-SymbolicName>com.ahmedmusallam.aem-checks</Bundle-SymbolicName>
+                        <Bundle-SymbolicName>com.ahmedmusallam.aemchecks.core</Bundle-SymbolicName>
 
                         <Sling-Model-Packages>
                           com.ahmedmusallam.aemchecks.core.models
